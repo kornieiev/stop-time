@@ -5,7 +5,6 @@ const ResultModal = forwardRef(function ResultModal(
   { targetTime, remainingTime, onReset },
   ref
 ) {
-  console.log("remainingTime====", remainingTime);
   const dialog = useRef();
 
   const userLost = remainingTime <= 0;
